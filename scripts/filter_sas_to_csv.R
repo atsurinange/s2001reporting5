@@ -10,6 +10,7 @@
 ### Initialize Script Information ###
 current_script_name <- "filter_sas_to_csv.R"
 #actual_executor <- "Kitagawa, Atsushi:B06823"
+#####################################
 
 ### Using Logger: Initialize ###
 if (!exists(".app_logger_initialized", inherits=TRUE)) {
