@@ -4,10 +4,7 @@ For study XXXX: reporting event YYYY
 - create a non-main branch(e.g. dev branch)
 - apply a rule to main branch which prohibits to push to main directly
 
-2) Create a new R project(reporting activity) in mode of version control and using git
-- [Important!] Input URL as SSH
-
-3) Update "Global Options" to use GIT and create a SSH key for RStudio user(linux user)
+2) Update "Global Options" to use GIT and create a SSH key for RStudio user(linux user)
 - Create your SSH key
   #e.g. 
   ssh-keygen -t ed25519 -C "atsushi.kitagawa@dxc.com" or RStudio GUI
@@ -16,6 +13,9 @@ For study XXXX: reporting event YYYY
   #e.g.
   git config --global user.email "atsushi.kitagawa@dxc.com"
   git config --global user.name "atsurinange"
+
+3) Create a new R project(reporting activity) in mode of version control and using git
+- [Important!] Input URL as SSH
 
 4) Update following R initial settings
 - .Renviron     for definition where is global cache
