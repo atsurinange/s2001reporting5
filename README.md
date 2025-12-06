@@ -1,5 +1,5 @@
-# reportingEventTemplate1
-For study XXXX: reporting event YYYY
+# Reporting Event: s2001reporting5
+For study STD2001: reporting event 5
 1) Create GitHub repository for a new R project as GitHub user(email based)
 - create a non-main branch(e.g. dev branch)
 - apply a rule to main branch which prohibits to push to main directly
@@ -17,16 +17,23 @@ For study XXXX: reporting event YYYY
 3) Create a new R project(reporting activity) in mode of version control and using git
 - [Important!] Input URL as SSH
 
-4) Update following R initial settings
+4) Pull your own branch from Remote Repo(GitHub)
+
+5) Update following R initial settings
 - .Renviron     for definition where is global cache
 - .Rprofile     for definition of custom logger to enable logging high-level info
 
-5) Enable renv on Environments of "Project Options"
+6) Enable renv on Environments of "Project Options"
 
-6) (Option) chmod the renv folder for project library in case of collaboration with other users
+7) Confirm renv project status
+- renv::project()
+- renv::paths$cache()         #Global Cache
+- renv::paths$library()       #Project Library
+- renv::status()
+- renv::snapshot()            #Create renv.lock file
+
+7) (Option) chmod the renv folder for project library in case of collaboration with other users
 - chmod -R g+rwx renv/library/R-4.3/x86_64-pc-linux-gnu/renv
-
-7) Pull your own branch from Remote Repo(GitHub)
 
 8) Create your own Rscripits under the project folder
 
