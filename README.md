@@ -1,5 +1,5 @@
 # Reporting Event: s2001reporting5
-For study STD2001: reporting event 5
+For study STD2001: reporting event 5, This is dress-reharsal for 12/10 demo
 1) Create GitHub repository for a new R project as GitHub user(email based)
 - create a non-main branch(e.g. dev branch)
 - apply a rule to main branch which prohibits to push to main directly
